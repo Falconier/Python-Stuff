@@ -1,0 +1,16 @@
+##region File Information
+# Car.py
+# Vin, Make, Model, Year, Color, and price
+##endregion
+
+
+class Car(object):
+    def __init__(self, vin, make, model, year, color, price):
+        self.__vin = vin
+        self.__make = make
+        self.__model = model
+        self.__year = year
+        self.__color = color
+        self.__price = price
+
+    def
