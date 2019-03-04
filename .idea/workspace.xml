@@ -13,36 +13,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/carShop/CarDealer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="56" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carShop/NewCar.py">
+        <entry file="file://$PROJECT_DIR$/AddressBook_Bullin_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="-1411">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding>
+                <element signature="e#145#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carShop/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="58" column="16" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="58" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -61,6 +59,7 @@
       <find>{&quot;CS101&quot;: 3004, &quot;CS102&quot;: 4501, &quot;CS103&quot;: 6755, &quot;NT110&quot;: 1244, &quot;CM241&quot;: 1411}</find>
       <find>========================</find>
       <find>==========================</find>
+      <find>.scores</find>
     </findStrings>
     <replaceStrings>
       <replace>ord(msg[i]) == ord(&quot;</replace>
@@ -68,6 +67,7 @@
       <replace>command</replace>
       <replace>==========================</replace>
       <replace>==============================</replace>
+      <replace>.__scores</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,19 +100,20 @@
         <option value="$PROJECT_DIR$/AddressBook_Bullin_v2.py" />
         <option value="$PROJECT_DIR$/SentenceBuilder_Bullin.py" />
         <option value="$PROJECT_DIR$/EnhancedTherapist_Bullin.py" />
-        <option value="$PROJECT_DIR$/Assignment9/Student.py" />
         <option value="$PROJECT_DIR$/carShop/__init__.py" />
         <option value="$PROJECT_DIR$/carShop/Car" />
         <option value="$PROJECT_DIR$/carShop/NewCar.py" />
         <option value="$PROJECT_DIR$/carShop/CarDealer.py" />
+        <option value="$PROJECT_DIR$/Assignment9/StudentTester.py" />
+        <option value="$PROJECT_DIR$/Assignment9/Student.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="73" />
-    <option name="y" value="-9" />
-    <option name="width" value="1853" />
-    <option name="height" value="548" />
+    <option name="x" value="72" />
+    <option name="y" value="-10" />
+    <option name="width" value="1854" />
+    <option name="height" value="549" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CarDealer">
+  <component name="RunManager" selected="Python.Student">
     <configuration name="AddressBook_Bullin_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSC121" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SentenceBuilder_Bullin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSC121" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,11 +251,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentenceBuilder_Bullin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment9/Student.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="StudentTester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSC121" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,11 +272,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment9" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment9/StudentTester.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Student" />
+        <item itemvalue="Python.StudentTester" />
         <item itemvalue="Python.CarDealer" />
         <item itemvalue="Python.EnhancedTherapist_Bullin" />
         <item itemvalue="Python.AddressBook_Bullin_v2" />
-        <item itemvalue="Python.SentenceBuilder_Bullin" />
-        <item itemvalue="Python.scratch_7" />
       </list>
     </recent_temporary>
   </component>
@@ -318,14 +319,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.16102281" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.22957747" />
       <window_info id="Favorites" order="2" sideWeight="0.50271004" side_tool="true" weight="0.115492955" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27882037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27882037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812332" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,13 +520,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dicTest.data">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="58" column="16" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Magic8BallResponses_Bullin.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -580,16 +573,6 @@
     <entry file="file://$PROJECT_DIR$/j_SessionTranscript.data" />
     <entry file="file://$PROJECT_DIR$/b_SessionTranscript.data" />
     <entry file="file://$PROJECT_DIR$/c_SessionTranscript.data" />
-    <entry file="file://$PROJECT_DIR$/AddressBook_Bullin_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <element signature="e#145#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SentenceBuilder_Bullin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -628,26 +611,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
+    <entry file="file://$PROJECT_DIR$/carShop/Car" />
+    <entry file="file://$PROJECT_DIR$/AddressBook_Bullin_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="-1411">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#145#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carShop/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/carShop/Car">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="60" lean-forward="true" selection-start-line="6" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carShop/NewCar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="510">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
@@ -656,6 +636,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment9/StudentTester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="58" column="16" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="56" />
         </state>
       </provider>
     </entry>
