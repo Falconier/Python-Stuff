@@ -1,0 +1,72 @@
+python
+
+## commenting
+
+start programs with 
+========================================================
+''' filename, purpose, \n author, and \n date'''
+def main():
+
+#input
+#processing
+#output
+
+def function_name(params ): ## functions called by main
+
+
+
+main()
+========================================================
+processing
+/ floating point division
+// int division
+% mod
+** exponent
+
+
+val types
+int
+float
+complex
+string (str)
+boolean (True False None)
+
+casting
+int( )
+float( )
+str( )
+
+input("prompt")
+print(var)
+
+range(5) #[0,1,2,3,4]
+range(1,5) #[1,2,3,4]
+range(1,5,2) #[1,3]
+
+def calPay(hours, rate)
+print(calPay(rate = 10, hours = 50) #this is a KEYWORD ARGUMENT 
+
+intstance validation
+type(var) #returns type
+isinstance(var, type) #returns bool
+
+logical ops
+IN ORDER OF EVAL
+not !
+and && + &
+or || *
+
+ if
+ elif
+ elif
+ else
+ 
+recursion
+while condition:
+	statements
+	
+for var in [val1 , val2, etc]:
+	statements
+	
+no global vars in this class
+
