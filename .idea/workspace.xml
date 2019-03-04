@@ -28,11 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EnhancedTherapist_Bullin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="40" selection-start-line="40" selection-end-line="41" />
+            <state relative-caret-position="-153">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" />
-                <element signature="e#141#157#0" />
                 <element signature="e#158#171#0" expanded="true" />
               </folding>
             </state>
@@ -85,6 +84,9 @@
       <replace>==============================</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -121,6 +123,7 @@
     <option name="width" value="895" />
     <option name="height" value="1090" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -305,6 +308,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.16102281" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.22957747" />
@@ -595,11 +599,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnhancedTherapist_Bullin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" selection-start-line="40" selection-end-line="41" />
+        <state relative-caret-position="-153">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#141#157#0" />
             <element signature="e#158#171#0" expanded="true" />
           </folding>
         </state>
