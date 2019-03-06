@@ -1,9 +1,10 @@
-##File Information
+##region File Information
 # Student.py
 # Resources to manage a student's name and test scores.
 ##endregion
 
 class Student():
+    ##region class information
     def __init__(self, name, number):
         self.__name = name
         self.__scores = []
@@ -34,6 +35,7 @@ class Student():
         __avg = str(self.__average)
         __Nm = str(self.__name)
         return "Name:" + __Nm + "\nScores: " + __avg + "\n"
+    ##endregion
 
     ##region New Code
 
@@ -57,10 +59,13 @@ class Student():
 
     ##endregion
 
+    ##region Title
+
+    ##endregion
 
 def main():
-    s1 = Student("A", 3)
-    s2 = Student("B", 3)
+    s1 = Student("s1", 3)
+    s2 = Student("s2", 3)
 
     s1.setScore(1,100)
     s1.setScore(2,98)
