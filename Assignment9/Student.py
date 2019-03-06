@@ -82,7 +82,7 @@ class Student():
 
 def main():
     s1 = Student("s1", 3)
-    s2 = Student("s1", 3)
+    s2 = Student("s2", 3)
 
     ##region Other print statements that are not used
     # s1.setScore(1,100)
