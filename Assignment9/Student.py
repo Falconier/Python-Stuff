@@ -13,7 +13,7 @@ class Student():
         self.__average = self.getAverage()
 
     def getName(self):
-        return self.name
+        return self.__name
 
     def setScore(self, i, score):
         self.__scores[i-1] = score
@@ -34,7 +34,15 @@ class Student():
         self.__average = self.getAverage()
         __avg = str(self.__average)
         __Nm = str(self.__name)
-        return "Name:" + __Nm + "\nScores: " + __avg + "\n"
+
+        __Sc = self.__scores
+
+        stR = ""
+
+        for i in range(len(__Sc)):
+            stR = stR + str(__Sc[i]) + ","
+
+        return "Name:" + __Nm + "\nScores: " + str(self.getAverage())+ "\n" + stR.rstrip(",")
     ##endregion
 
     ##region New Code
@@ -43,7 +51,7 @@ class Student():
         return self.getAverage() > other.getAverage()
 
     def __lt__(self, other):
-        return self.getAverage() > other.getAverage()
+        return self.getAverage() < other.getAverage()
 
     def __eq__(self, other):
         return self.getAverage() == other.getAverage()
@@ -57,6 +65,15 @@ class Student():
     def __ge__(self, other):
         return self.getAverage() >= other.getAverage()
 
+    def equalTo(self, other):
+        return self.getName() == other.getName()
+
+    def lessThan(self, other):
+        return self.getName() < other.getName()
+
+    def greaterOrEqualTo(self, other):
+        return self.getName() >= other.getName()
+
     ##endregion
 
     ##region Title
@@ -65,25 +82,32 @@ class Student():
 
 def main():
     s1 = Student("s1", 3)
-    s2 = Student("s2", 3)
+    s2 = Student("s1", 3)
 
-    s1.setScore(1,100)
-    s1.setScore(2,98)
-    # s1.setScore(3,75)
-    s1.setScore(3,85)
-
-
-    s2.setScore(1,100)
-    s2.setScore(2,98)
-    s2.setScore(3,75)
+    ##region Other print statements that are not used
+    # s1.setScore(1,100)
+    # s1.setScore(2,98)
+    # # s1.setScore(3,75)
+    # s1.setScore(3,85)
+    #
+    #
+    # s2.setScore(1,100)
+    # s2.setScore(2,98)
+    # s2.setScore(3,75)
     # s2.setScore(3,85)
+
+    # print("s1 equal to s2:", s1.getName() == s2.getName())
+    # print("s1 less than s2:", s1 < s2)
+    # print("s1 greater than or equal to s2:", s1 >= s2)
+
+    ##endregion no
 
     print(s1)
     print(s2)
 
-    print("s1 equal to s2:", s1 == s2)
-    print("s1 less than s2:", s1 < s2)
-    print("s1 greater than or equal to s2:", s1 >= s2)
+    print("Name compare (equal to):", s1.equalTo(s2))
+    print("Name compare (less than):", s1.lessThan(s2))
+    print("Name compare (greater than or equal to):", s1.greaterOrEqualTo(s2))
 
     # print("s1 not equal to s2:", s1 != s2)
     # print("s1 greater than s2:", s1 > s2)
