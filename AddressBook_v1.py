@@ -35,9 +35,9 @@ def displayMenu(book):
 def loadCollection():
     print("Loading Files")
     try:
-        pckl = open("Movie Collection.data","rb")
+        pckl = open("addressBook.data","rb")
     except(OSError, IOError) as e:
-        pckl = open("Movie Collection.data","wb")
+        pckl = open("addressBook.data","wb")
     b = []
     while (True):
         try:

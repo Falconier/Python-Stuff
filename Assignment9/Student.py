@@ -48,22 +48,22 @@ class Student():
     ##region New Code
 
     def __gt__(self, other):
-        return self.getAverage() > other.getAverage()
+        return self.getName() > other.getName()
 
     def __lt__(self, other):
-        return self.getAverage() < other.getAverage()
+        return self.getName() < other.getName()
 
     def __eq__(self, other):
-        return self.getAverage() == other.getAverage()
+        return self.getName() == other.getName()
 
     def __ne__(self, other):
-        return not self.getAverage() == other.getAverage()
+        return not self.getName() == other.getName()
 
     def __le__(self, other):
-        return self.getAverage() <= other.getAverage()
+        return self.getName() <= other.getName()
 
     def __ge__(self, other):
-        return self.getAverage() >= other.getAverage()
+        return self.getName() >= other.getName()
 
     def equalTo(self, other):
         return self.getName() == other.getName()
