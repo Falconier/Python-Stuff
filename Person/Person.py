@@ -38,9 +38,9 @@ class Person:
         info = "Name: " + self.__name + "\nDoB: " + self.__dob
         return info
 
-def main():
-    p1 = Person("A","19971217")
-    print(p1)
-    print("Age:", p1.getAge())
-
-main()
+# def main():
+#     p1 = Person("A","19971217")
+#     print(p1)
+#     print("Age:", p1.getAge())
+#
+# main()

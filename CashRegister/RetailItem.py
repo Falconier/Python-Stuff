@@ -1,3 +1,9 @@
+##region Assignment Information
+# RetailItem.py
+# Jacob Emory Bullin
+# retail item object
+##endregion
+
 class RetailItem():
 
     def __init__(self, itemName, quanntity, price):
@@ -25,18 +31,20 @@ class RetailItem():
         return self.price
 
     def sold(self, quantity):
-        self.setQuatity(self.getQuantity()-quantity)
+        self.setQuatity(self.getQuantity() - quantity)
 
+    def returned(self, quantity):
+        self.setQuatity(self.getQuantity() + quantity)
 ##endregion
 
-def main():
-    r1 = RetailItem("Jeans", 25, 24.99)
-    r2 = RetailItem("T-Shirt", 23, 12.99)
-    r3 = RetailItem("Jacket", 12, 19.99)
-
-    print(r1.getName())
-    print(r2.getName())
-    print(r3.getName())
-
-
-main()
+# def main():
+#     r1 = RetailItem("Jeans", 25, 24.99)
+#     r2 = RetailItem("T-Shirt", 23, 12.99)
+#     r3 = RetailItem("Jacket", 12, 19.99)
+#
+#     print(r1.getName())
+#     print(r2.getName())
+#     print(r3.getName())
+#
+#
+# main()

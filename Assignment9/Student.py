@@ -76,10 +76,6 @@ class Student():
 
     ##endregion
 
-    ##region Title
-
-    ##endregion
-
 def main():
     s1 = Student("s1", 3)
     s2 = Student("s2", 3)
@@ -112,6 +108,5 @@ def main():
     # print("s1 not equal to s2:", s1 != s2)
     # print("s1 greater than s2:", s1 > s2)
     # print("s1 less than or equal to s2:", s1 <= s2)
-
 
 main()
