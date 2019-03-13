@@ -11,9 +11,12 @@ class Register():
         return inventory
 
     def purchaseItem(self, item, quantity):
-        for e in range(len(self.__items))
+        for e in range(len(self.__items)):
+            print(self.__items[e].getName())
+
             if(item == self.__items[e]):
                 self.__items[e].sold(quantity)
+
             ##i = self.__items[e]
 
 
@@ -28,3 +31,5 @@ def main():
     items.append(r3)
     R1 = Register(items)
     print(str(R1.getInventory()))
+
+    R1

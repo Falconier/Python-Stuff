@@ -13,41 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Person/Person.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-              <folding>
-                <element signature="e#44#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
+        <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="494">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="n#!!doc" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +42,7 @@
       <find>========================</find>
       <find>==========================</find>
       <find>.scores</find>
+      <find>.getAverage</find>
     </findStrings>
     <replaceStrings>
       <replace>ord(msg[i]) == ord(&quot;</replace>
@@ -77,6 +51,7 @@
       <replace>==========================</replace>
       <replace>==============================</replace>
       <replace>.__scores</replace>
+      <replace>.getName</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -113,19 +88,18 @@
         <option value="$PROJECT_DIR$/carShop/NewCar.py" />
         <option value="$PROJECT_DIR$/carShop/CarDealer.py" />
         <option value="$PROJECT_DIR$/Assignment9/StudentTester.py" />
-        <option value="$PROJECT_DIR$/Assignment9/Student.py" />
         <option value="$PROJECT_DIR$/CashRegister/RetailItem.py" />
-        <option value="$PROJECT_DIR$/CashRegister/CashRegister.py" />
         <option value="$PROJECT_DIR$/Person/Person.py" />
         <option value="$PROJECT_DIR$/AddressBook_v1.py" />
+        <option value="$PROJECT_DIR$/Assignment9/Student.py" />
+        <option value="$PROJECT_DIR$/CashRegister/CashRegister.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="75" />
+    <option name="width" value="935" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,17 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +141,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Person">
+  <component name="RunManager" selected="Python.Student">
     <configuration name="CarDealer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSC121" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,9 +283,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Student" />
         <item itemvalue="Python.Person" />
         <item itemvalue="Python.CashRegister" />
-        <item itemvalue="Python.Student" />
         <item itemvalue="Python.StudentTester" />
         <item itemvalue="Python.CarDealer" />
       </list>
@@ -343,12 +317,12 @@
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.16102281" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.16102281" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.22957747" />
       <window_info id="Favorites" order="2" sideWeight="0.50271004" side_tool="true" weight="0.115492955" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24396783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24530831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812332" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,6 +362,16 @@
           <url>file://$PROJECT_DIR$/CourseInformation_Bullin.py</url>
           <line>43</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment9/Student.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment9/Student.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -621,17 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#2039#2088#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddressBook_Bullin_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -645,13 +618,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LongTermParking_JacobBullin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -662,17 +628,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -686,10 +652,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
+    <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
         </state>
       </provider>
     </entry>
