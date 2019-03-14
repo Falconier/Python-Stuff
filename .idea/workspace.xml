@@ -16,26 +16,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="44" column="79" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+            <state relative-caret-position="343">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="n#!!doc" />
-                <element signature="e#130#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnhancedTherapist_Bullin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="10" column="16" selection-start-line="7" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" />
-                <element signature="e#158#171#0" expanded="true" />
-                <element signature="e#246#264#0" />
-                <element signature="e#630#652#0" />
+                <element signature="e#387#415#0" />
+                <element signature="e#457#570#0" />
+                <element signature="e#1296#1688#0" />
+                <element signature="e#1443#1462#0" />
+                <marker date="1552528317357" expanded="true" signature="317:1753" ph="..." />
+                <marker date="1552528317357" expanded="true" signature="338:1741" ph="..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            <state relative-caret-position="375">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -130,7 +120,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
     <option name="width" value="935" />
-    <option name="height" value="1089" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -322,6 +312,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -345,15 +338,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" weight="0.32757428" />
-      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.22957747" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4919571" weight="0.16033173" />
+      <window_info id="Structure" order="1" sideWeight="0.5080429" side_tool="true" visible="true" weight="0.16033173" />
       <window_info id="Favorites" order="2" sideWeight="0.50271004" side_tool="true" weight="0.115492955" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24664879" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24798928" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39276138" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,6 +396,11 @@
           <url>file://$PROJECT_DIR$/Assignment9/Student.py</url>
           <line>67</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CashRegister/CashRegister.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -624,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -676,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/itertools.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -709,13 +690,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
+    <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="79" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        <state relative-caret-position="375">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#130#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#387#415#0" />
+            <element signature="e#457#570#0" />
+            <element signature="e#1296#1688#0" />
+            <element signature="e#1443#1462#0" />
+            <marker date="1552528317357" expanded="true" signature="317:1753" ph="..." />
+            <marker date="1552528317357" expanded="true" signature="338:1741" ph="..." />
           </folding>
         </state>
       </provider>

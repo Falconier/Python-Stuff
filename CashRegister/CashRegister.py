@@ -5,7 +5,6 @@
 ##endregion
 
 from RetailItem import RetailItem
-import itertools
 
 class Register():
     def __init__(self, inventory):
@@ -13,6 +12,7 @@ class Register():
         self.__purchaseOrder = []
         self.__total = 0.0
 
+##region Methods
     def getInventory(self):
         return str(self.__inventory)
 
@@ -42,11 +42,20 @@ class Register():
             print("We dont not have any " + item + "'s here.")
 
     def clearOrder(self):
-        for e,f in itertools.combinations(self.__purchaseOrder,self.__inventory):
-            print(e,f)
+        for e in self.__purchaseOrder:
+            for f in self.__inventory:
+                if(e.getName().title() == f.getName().title()):
+                    f.returned(1)
+                    self.__total -+ f.getPrice()
+                    # self.__purchaseOrder.remove(e)
+                    break
+        self.__purchaseOrder.clear()
+        if(self.__total != 0):
+            self.__total = 0
 
     def getTotal(self):
         return self.__total
+##endregion
 
 
 def main():
@@ -66,6 +75,7 @@ def main():
         else:
             break
     print("Items Purchased:")
+    print(R1.clearOrder())
     print(R1.getPurchaseOrder())
     print("Total: $", R1.getTotal())
 
