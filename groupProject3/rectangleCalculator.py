@@ -1,6 +1,7 @@
 #region File Information
 # Jacob Bullin, Troy Choplin
 # rectangleCalculator.py
+# 3/25/19
 #endregion
 
 class Rectangle:

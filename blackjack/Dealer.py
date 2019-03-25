@@ -4,7 +4,7 @@ from blackjack import Player
 class Dealer(Player):
 
     def __init__(self, cards):
-        super().__init__(cards)
+        Player.__init__(self,cards)
         self.showOneCard = True
 
     def __str__(self):
