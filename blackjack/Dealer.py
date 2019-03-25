@@ -1,17 +1,17 @@
 from blackjack import Player
 
 
-class Dealer:
+class Dealer(Player):
 
     def __init__(self, cards):
-        Player.__init__(cards)
+        super().__init__(cards)
         self.showOneCard = True
 
     def __str__(self):
         if self.showOneCard:
-            return str(self.cards[0])
+            return str(super().cards[0])
         else:
-            return print(self.player)
+            return print("Explosion") # this 'self.player' does not exist
     def hit(self, deck):
         self.showOneCard = False
         while self.getPoints() < 17:

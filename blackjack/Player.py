@@ -3,13 +3,13 @@
 class Player:
 
     def __init__(self, cards):
-        self.cards = cards
+        self.cards = list(cards)
 
     def __str__(self):
         # result = ", ".join(map(str, self.cards))
         result = ""
         for i in self.cards:
-            result += i
+            result += i.__str__()
         result += "\n " + str(self.getPoints()) + " points"
         return result
 
