@@ -172,6 +172,11 @@
             </path>
             <path>
               <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -364,14 +369,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-7" width="1486" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15357643" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15357643" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43565685" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43565685" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
