@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/store/product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="664">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -141,8 +141,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
     <option name="y" value="540" />
-    <option name="width" value="1854" />
-    <option name="height" value="549" />
+    <option name="width" value="1855" />
+    <option name="height" value="550" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -359,7 +359,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15357643" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15568022" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
@@ -737,6 +737,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/store/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/store/food.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -751,13 +758,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store/testing.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>
