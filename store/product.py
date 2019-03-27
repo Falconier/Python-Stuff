@@ -34,7 +34,7 @@ class Product:
     def getPrice(self):
         return self.price
 
-    def setPrice(self,p):
+    def setPrice(self, p):
         self.price = p
 
     def __str__(self):

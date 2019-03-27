@@ -20,7 +20,7 @@ class Food(Product):
     def getRate(self):
         return self.__taxRate
 
-    def setRate(self,r):
+    def setRate(self, r):
         self.__taxRate = r
 
     def __str__(self):
