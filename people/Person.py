@@ -7,7 +7,7 @@ import datetime
 from datetime import date
 
 class Person:
-    '''Creates Instance of Person'''
+    '''Creates Instance of people'''
     def __init__(self, name, dob): ##todo: set date to yyyymmdd format
         self.__name = name
         self.__dob = dob
@@ -39,7 +39,7 @@ class Person:
         return info
 
 # def main():
-#     p1 = Person("A","19971217")
+#     p1 = people("A","19971217")
 #     print(p1)
 #     print("Age:", p1.getAge())
 #

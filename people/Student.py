@@ -1,4 +1,4 @@
-from Person import Person
+from people import Person
 from Course import Course
 import uuid
 
