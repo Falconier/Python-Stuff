@@ -19,11 +19,11 @@ class Product:
     def setCode(self, c):
         self.code = c
 
-    def getDiscription(self):
-        return self.description
+    def getDescription(self):
+        return self.__description
 
     def setDiscription(self, d):
-        self.description = d
+        self.__description = d
 
     def getQuantity(self):
         return self.__quant
@@ -38,4 +38,8 @@ class Product:
         self.price = p
 
     def __str__(self):
-        info = "Product Code: " + self.getCode()
+        info = "Product Code: " + self.code
+        info += "Product Description: " + self.__description
+        info += "Quantity: '" + self.__quant
+        info += "Price: " + self.price
+        return info
