@@ -13,43 +13,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment11/customer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment11/person.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment11/testerFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="e#74#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py">
+        <entry file="file://$PROJECT_DIR$/store/product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/food.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/basicNonFood.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/extraProduct.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/cashRegister.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/testing.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -89,10 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RestaurantSelector_JacobBullin.py" />
-        <option value="$PROJECT_DIR$/InvestmentCalculator.py" />
-        <option value="$PROJECT_DIR$/Decoder.py" />
-        <option value="$PROJECT_DIR$/venv/MorseCode.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/GradeBook.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
@@ -138,6 +129,12 @@
         <option value="$PROJECT_DIR$/assignment11/person.py" />
         <option value="$PROJECT_DIR$/assignment11/customer.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
+        <option value="$PROJECT_DIR$/store/food.py" />
+        <option value="$PROJECT_DIR$/store/basicNonFood.py" />
+        <option value="$PROJECT_DIR$/store/extraProduct.py" />
+        <option value="$PROJECT_DIR$/store/cashRegister.py" />
+        <option value="$PROJECT_DIR$/store/testing.py" />
+        <option value="$PROJECT_DIR$/store/product.py" />
       </list>
     </option>
   </component>
@@ -159,16 +156,6 @@
             <path>
               <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="Assignment9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
@@ -369,13 +356,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-7" width="1486" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15357643" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15357643" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43565685" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43565685" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
@@ -386,7 +374,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" visible="true" weight="0.16690043" />
+      <window_info active="true" anchor="right" id="Structure" order="3" sideWeight="0.5093834" visible="true" weight="0.16690043" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49061662" visible="true" weight="0.33450457" />
@@ -440,44 +428,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Survey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CourseInformation_Bullin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dicTest.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magic8BallResponses_Bullin.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nouns.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -784,6 +734,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/food.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/basicNonFood.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/extraProduct.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/cashRegister.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/testing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
