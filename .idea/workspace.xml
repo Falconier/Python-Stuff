@@ -14,17 +14,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/store/product.py">
+        <entry file="file://$PROJECT_DIR$/store/food.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/food.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -129,12 +124,12 @@
         <option value="$PROJECT_DIR$/assignment11/person.py" />
         <option value="$PROJECT_DIR$/assignment11/customer.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
-        <option value="$PROJECT_DIR$/store/food.py" />
         <option value="$PROJECT_DIR$/store/basicNonFood.py" />
         <option value="$PROJECT_DIR$/store/extraProduct.py" />
         <option value="$PROJECT_DIR$/store/cashRegister.py" />
         <option value="$PROJECT_DIR$/store/testing.py" />
         <option value="$PROJECT_DIR$/store/product.py" />
+        <option value="$PROJECT_DIR$/store/food.py" />
       </list>
     </option>
   </component>
@@ -737,19 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/food.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/basicNonFood.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/store/extraProduct.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -758,6 +740,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store/testing.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/basicNonFood.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
