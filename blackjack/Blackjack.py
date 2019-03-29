@@ -10,7 +10,7 @@ class Blackjack:
         self.deck.shuffle()
         # Pass the player and the dealer two cards each
         self.player = Player([self.deck.deal(),self.deck.deal()])
-        self.dealer = Dealer([self.deck.deal(), self.deck.deal()])
+        self.dealer = Dealer(Player([self.deck.deal(), self.deck.deal()]))
 
     def play(self):
         print("Player:\n", self.player)

@@ -1,5 +1,11 @@
+##region File info
+# Player and Dealer class
+# 3/28/19
+# Jacob Bullin
+##endregion
 
 
+##region Player Class
 class Player:
 
     def __init__(self, cards):
@@ -35,11 +41,17 @@ class Player:
 
     def hasBlackjack(self):
         return len(self.cards) == 2 and self.getPoints() == 21
+##endregion
+
 
 class Dealer(Player):
 
+    # def __init__(self, cards):
+    #     self.cards = list(cards)
+
     def __init__(self, cards):
-        self.cards = list(cards)
+        Player.__init__(cards)
+        self.showOneCard = True
 
     def getPoints(self):
         count = 0
@@ -60,15 +72,13 @@ class Dealer(Player):
 
     def hasBlackjack(self):
         return len(self.cards) == 2 and self.getPoints() == 21
-    def __init__(self, cards):
-        Player.__init__(self,cards)
-        self.showOneCard = True
 
     def __str__(self):
         if self.showOneCard:
             return str(Player.cards[0])
         else:
             return print("Explosion") # this 'self.player' does not exist
+
     def hit(self, deck):
         self.showOneCard = False
         while self.getPoints() < 17:

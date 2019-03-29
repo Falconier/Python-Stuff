@@ -4,9 +4,6 @@
 ##endregion
 
 class Product:
-    def __init__(self):
-        pass
-
     def __init__(self, code, description, quantity, price):
         self.code = code
         self.__description = description
