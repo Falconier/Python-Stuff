@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/blackjack/Blackjack.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="55" column="6" lean-forward="true" selection-start-line="51" selection-end-line="55" selection-end-column="6" />
+              <caret line="55" column="6" selection-start-line="51" selection-end-line="55" selection-end-column="6" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <element signature="e#128#1850#0" />
@@ -48,14 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blackjack/SingleFileBlackjack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="1036">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
-                <element signature="e#16#542#0" />
+                <element signature="e#32#558#0" />
+                <element signature="e#578#1139#0" />
+                <element signature="e#3371#5085#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/turtleWorld/triangle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -135,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
         <option value="$PROJECT_DIR$/LongTermParking_JacobBullin.py" />
@@ -186,6 +196,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
         <option value="$PROJECT_DIR$/blackjack/SingleFileBlackjack.py" />
+        <option value="$PROJECT_DIR$/turtleWorld/triangle.py" />
       </list>
     </option>
   </component>
@@ -201,6 +212,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,12 +233,7 @@
             <path>
               <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="blackjack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="turtleWorld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
@@ -235,22 +252,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -415,11 +421,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.16302046" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.16513762" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29758713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29758713" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
@@ -430,7 +436,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Structure" order="3" sideWeight="0.5093834" visible="true" weight="0.20042343" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" visible="true" weight="0.20042343" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49061662" visible="true" weight="0.33450457" />
@@ -479,9 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assignment9/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/34288643/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -744,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/food.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -758,25 +754,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blackjack/Cards.py">
+    <entry file="file://$PROJECT_DIR$/blackjack/Blackjack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="27" />
+        <state relative-caret-position="220">
+          <caret line="55" column="6" selection-start-line="51" selection-end-line="55" selection-end-column="6" />
           <folding>
-            <element signature="e#101#627#0" />
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#128#1850#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blackjack/Deck.py">
+    <entry file="file://$PROJECT_DIR$/store/food.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" selection-start-line="11" selection-end-line="38" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#100#132#0" expanded="true" />
-            <element signature="e#178#739#0" />
-          </folding>
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -801,24 +793,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blackjack/Blackjack.py">
+    <entry file="file://$PROJECT_DIR$/blackjack/Deck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="55" column="6" lean-forward="true" selection-start-line="51" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="140">
+          <caret line="11" selection-start-line="11" selection-end-line="38" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#128#1850#0" />
+            <element signature="n#!!doc" />
+            <element signature="e#100#132#0" expanded="true" />
+            <element signature="e#178#739#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackjack/Cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="27" />
+          <folding>
+            <element signature="e#101#627#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blackjack/SingleFileBlackjack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="1036">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
-            <element signature="e#16#542#0" />
+            <element signature="e#32#558#0" />
+            <element signature="e#578#1139#0" />
+            <element signature="e#3371#5085#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turtleWorld/triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>

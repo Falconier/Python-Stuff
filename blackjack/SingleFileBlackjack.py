@@ -51,21 +51,12 @@ class Deck:
         return result
 
 
-class Player:
-
+class Player(object):
     def __init__(self, cards):
-        # self.cards = list(cards) #original
-        self.cards = ()
-        if (type(cards) is str):
-            self.cards = list(str(cards).split(','))
-        else:
-            self.cards = list(cards)
+        self.cards = cards
 
     def __str__(self):
-        # result = ", ".join(map(str, self.cards))
-        result = ""
-        for i in self.cards:
-            result += i.__str__()
+        result = ", ".join(map(str, self.cards))
         result += "\n " + str(self.getPoints()) + " points"
         return result
 
@@ -82,54 +73,33 @@ class Player:
             else:
                 count += card.rank
                 # Deduct 10 if Ace is available and needed as 1
-        for card in self.cards:
-            if count <= 21:
-                break
-            elif card.rank == 1:
-                count -= 10
-        return count
+            for card in self.cards:
+                if count <= 21:
+                    break
+                elif card.rank == 1:
+                    count -= 10
+            return count
 
     def hasBlackjack(self):
         return len(self.cards) == 2 and self.getPoints() == 21
 
 
-class Dealer(Player): # this fixes everything, import class from file
-
+class Dealer(Player):
     def __init__(self, cards):
-        super().__init__(cards)
+        Player.__init__(self, cards)
         self.showOneCard = True
-        # self.cards = list(cards)
-
-    def getPoints(self):
-        count = 0
-        for card in self.cards:
-            if card.rank > 9:
-                count += 10
-            elif card.rank == 1:
-                count += 11
-            else:
-                count += card.rank
-                # Deduct 10 if Ace is available and needed as 1
-        for card in self.cards:
-            if count <= 21:
-                break
-            elif card.rank == 1:
-                count -= 10
-        return count
-
-    def hasBlackjack(self):
-        return len(self.cards) == 2 and self.getPoints() == 21
 
     def __str__(self):
         if self.showOneCard:
-            return super().cards[0]
+            return str(self.cards[0])
         else:
-            return print("Explosion") # this 'self.player' does not exist
+            return Player.__str__(self)
 
     def hit(self, deck):
         self.showOneCard = False
         while self.getPoints() < 17:
             self.cards.append(deck.deal())
+
 
 class Blackjack:
 
@@ -137,7 +107,7 @@ class Blackjack:
         self.deck = Deck()
         self.deck.shuffle()
         # Pass the player and the dealer two cards each
-        self.player = Player([self.deck.deal(),self.deck.deal()])
+        self.player = Player([self.deck.deal(), self.deck.deal()])
         self.dealer = Dealer([self.deck.deal(), self.deck.deal()])
 
     def play(self):
@@ -181,5 +151,6 @@ class Blackjack:
 def main():
     game = Blackjack()
     game.play()
+
 
 main()
