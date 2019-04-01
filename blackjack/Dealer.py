@@ -4,7 +4,8 @@ from blackjack import Player
 class Dealer(Player.Player): # this fixes everything, import class from file
 
     def __init__(self, player):
-        Player.__init__(player.cards)
+        Player.__init__(str(player.cards))
+        self.showOneCard = True
         # self.cards = list(cards)
 
     def getPoints(self):

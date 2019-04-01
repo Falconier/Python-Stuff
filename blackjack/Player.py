@@ -9,7 +9,11 @@
 class Player:
 
     def __init__(self, cards):
-        self.cards = list(cards)
+        # self.cards = list(cards) #original
+        if (type(cards) is str):
+            self.cards = list(str(cards).split(','))
+        else:
+            self.cards = list(cards)
 
     def __str__(self):
         # result = ", ".join(map(str, self.cards))
