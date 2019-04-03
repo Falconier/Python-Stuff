@@ -1,4 +1,7 @@
+import datetime
 import turtle
+import time
+
 wn = turtle.Screen()
 wn.bgcolor("black")
 wn.setup(800,800)
@@ -11,6 +14,7 @@ tu.hideturtle()
 tu.speed(0)
 tu.pensize(5)
 
+global h,m,s
 
 def drawClock(r,h,m,s):
     tu.penup()
@@ -23,15 +27,15 @@ def drawClock(r,h,m,s):
     tu.penup()
     tu.goto(0,0)
     tu.setheading(90)
-    for i in range(300):
-        tu.color("lightgreen")
-        tu.pensize(1)
-        tu.fd(r-8)
-        tu.pendown()
-        tu.fd(8)
-        tu.penup()
-        tu.goto(0,0)
-        tu.rt(1.2)
+    # for i in range(300):
+    #     tu.color("lightgreen")
+    #     tu.pensize(1)
+    #     tu.fd(r-8)
+    #     tu.pendown()
+    #     tu.fd(8)
+    #     tu.penup()
+    #     tu.goto(0,0)
+    #     tu.rt(1.2)
     for i in range(60):
         tu.color("LemonChiffon")
         tu.pensize(2)
@@ -54,6 +58,7 @@ def drawClock(r,h,m,s):
 
     drawHourHand(r,h)
     drawMinuteHand(r,m)
+    drawSecondHand(r,s)
 
 def drawHourHand(r,h):
     tu.penup()
@@ -75,8 +80,24 @@ def drawMinuteHand(r,m):
     tu.pendown()
     tu.fd(r*.75)
 
-def main():
-    # dt = datetime.now()
-    drawClock(250,10,15,0)
-    turtle.done()
-main()
+def drawSecondHand(r,s):
+    tu.penup()
+    tu.goto(0, 0)
+    tu.color("red")
+    tu.setheading(90)
+    angle = (s/60)*360
+    tu.rt(angle)
+    tu.pendown()
+    tu.fd(r * .9)
+
+
+
+
+while True:
+    h = int(time.strftime('%I'))
+    m = int(time.strftime("%M"))
+    s = int(time.strftime('%S'))
+
+    print(s)
+    drawClock(250, h, m, s)
+wn.mainloop()
