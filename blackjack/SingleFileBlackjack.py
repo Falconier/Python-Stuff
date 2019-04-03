@@ -107,9 +107,10 @@ class Blackjack(object):
         self.deck.shuffle()
         # Pass the player and the dealer two cards each
         self.player = Player([self.deck.deal(),
-        self.deck.deal()])
+                              self.deck.deal()])
         self.dealer = Dealer([self.deck.deal(),
-        self.deck.deal()])
+                              self.deck.deal()])
+
     def play(self):
         print("Player:\n", self.player)
         print("Dealer:\n", self.dealer)
@@ -140,7 +141,7 @@ class Blackjack(object):
                 elif dealerPoints < playerPoints and playerPoints <= 21:
                     print("You win")
                 elif dealerPoints == playerPoints:
-                    if self. player.hasBlackjack() and not self.dealer.hasBlackjack():
+                    if self.player.hasBlackjack() and not self.dealer.hasBlackjack():
                         print("You win")
                     elif not self.player.hasBlackjack() and self.dealer.hasBlackjack():
                         print("Dealer wins")
