@@ -12,15 +12,12 @@
     <favorites_list name="CSC121" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/turtleWorld/nonTurtleClock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1839">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -129,45 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="blackjack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="groupProject3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
-              <item name="turtleWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -179,12 +137,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSC-121" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC-121" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -345,15 +315,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="-7" width="1476" height="878" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" weight="0.1539548" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15351813" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31379732" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31379732" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
@@ -477,8 +447,6 @@
             <element signature="e#457#570#0" />
             <element signature="e#1296#1688#0" />
             <element signature="e#1443#1462#0" />
-            <marker date="1552528317357" expanded="true" signature="317:1753" ph="..." />
-            <marker date="1552528317357" expanded="true" signature="338:1741" ph="..." />
           </folding>
         </state>
       </provider>
@@ -487,16 +455,8 @@
     <entry file="file://$PROJECT_DIR$/blackjack/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
     <entry file="file://$PROJECT_DIR$/people/Person.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -541,13 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
     <entry file="file://$PROJECT_DIR$/store/product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -567,55 +521,17 @@
     <entry file="file://$PROJECT_DIR$/store/testing.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="322" selection-start-line="322" selection-end-line="322" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/testing.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/testing.data" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
     <entry file="file://$PROJECT_DIR$/blackjack/Blackjack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -684,13 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_for_Isaac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_for_Isaac.py" />
     <entry file="file://$PROJECT_DIR$/groupProject3/rectangleCalculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
@@ -708,13 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="1202" selection-start-line="1202" selection-end-line="1202" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py" />
     <entry file="file://$PROJECT_DIR$/blackjack/SingleFileBlackjack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
@@ -726,46 +630,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/turtleWorld/circleMaker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turtleWorld/playground.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#49#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turtleWorld/mouseEventDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turtleWorld/timerEventDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/turtleWorld/circleMaker.py" />
+    <entry file="file://$PROJECT_DIR$/turtleWorld/playground.py" />
+    <entry file="file://$PROJECT_DIR$/turtleWorld/mouseEventDemo.py" />
+    <entry file="file://$PROJECT_DIR$/turtleWorld/timerEventDemo.py" />
     <entry file="file://$PROJECT_DIR$/turtleWorld/turtleClock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="153">
           <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -777,11 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/turtleWorld/nonTurtleClock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1839">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>

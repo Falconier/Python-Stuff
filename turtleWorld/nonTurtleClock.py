@@ -9,7 +9,7 @@ import turtle
 import time
 
 global DEBUG
-DEBUG = False
+DEBUG = True
 
 wn = turtle.Screen()
 wn.bgcolor("black")
