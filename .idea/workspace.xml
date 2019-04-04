@@ -12,40 +12,14 @@
     <favorites_list name="CSC121" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/turtleWorld/turtleClock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#97#736#0" />
-                <element signature="e#800#1352#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/turtleWorld/nonTurtleClock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="99" selection-end-line="103" />
+            <state relative-caret-position="-1839">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/turtleWorld/timerEventDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +120,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
-    <option name="width" value="929" />
-    <option name="height" value="1088" />
+    <option name="width" value="930" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,17 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,11 +168,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -371,13 +346,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-7" width="1476" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" weight="0.34463277" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" weight="0.1539548" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3150134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31379732" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
@@ -391,23 +367,23 @@
       <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" weight="0.41434845" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49061662" visible="true" weight="0.33450457" />
-      <window_info id="Favorites" order="1" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
+      <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.1539548" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8371041" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31379732" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.3914209" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.20911528" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.500346" side_tool="true" weight="0.8039216" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.2707775" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" weight="0.16011237" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" weight="0.41434845" />
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
@@ -770,10 +746,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/turtleWorld/mouseEventDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/turtleWorld/timerEventDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -782,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/turtleWorld/turtleClock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#97#736#0" />
@@ -792,17 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/turtleWorld/mouseEventDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/turtleWorld/nonTurtleClock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="99" selection-end-line="103" />
+        <state relative-caret-position="-1839">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

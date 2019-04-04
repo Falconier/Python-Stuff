@@ -1,11 +1,21 @@
+##File Info
+# Ian Mense and Jacob Bullin
+# Analog Clock with Turtle
+# 4/3/19
+##endregion
+
 import datetime
 import turtle
 import time
+
+global DEBUG
+DEBUG = False
 
 wn = turtle.Screen()
 wn.bgcolor("black")
 wn.setup(800,800)
 wn.title("Clock by Ian and Jacob")
+wn.tracer(0)
 
 global tu
 tu = turtle.Turtle()
@@ -27,15 +37,15 @@ def drawClock(r,h,m,s):
     tu.penup()
     tu.goto(0,0)
     tu.setheading(90)
-    # for i in range(300):
-    #     tu.color("lightgreen")
-    #     tu.pensize(1)
-    #     tu.fd(r-8)
-    #     tu.pendown()
-    #     tu.fd(8)
-    #     tu.penup()
-    #     tu.goto(0,0)
-    #     tu.rt(1.2)
+    for i in range(300):
+        tu.color("lightgreen")
+        tu.pensize(1)
+        tu.fd(r-8)
+        tu.pendown()
+        tu.fd(8)
+        tu.penup()
+        tu.goto(0,0)
+        tu.rt(1.2)
     for i in range(60):
         tu.color("LemonChiffon")
         tu.pensize(2)
@@ -93,11 +103,18 @@ def drawSecondHand(r,s):
 
 
 
+secList = list()
 while True:
-    h = int(time.strftime('%I'))
+    h = int(time.strftime("%I"))
     m = int(time.strftime("%M"))
-    s = int(time.strftime('%S'))
+    s = int(time.strftime("%S"))
 
-    print(s)
+    if(DEBUG):
+        print(s)
+
     drawClock(250, h, m, s)
+    wn.update()
+    time.sleep(.0001)
+
+    tu.clear()
 wn.mainloop()
