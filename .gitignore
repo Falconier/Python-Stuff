@@ -105,3 +105,6 @@ venv.bak/
 
 ##custom ignores
 .idea
+.idea/workspace.xml
+.idea/CSC121.iml
+.idea/misc.xml
