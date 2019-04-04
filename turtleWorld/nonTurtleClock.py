@@ -65,10 +65,11 @@ def drawClock(r,h,m,s):
         tu.goto(0,0)
         tu.rt(30)
 
-
     drawHourHand(r,h)
     drawMinuteHand(r,m)
     drawSecondHand(r,s)
+    drawDate()
+
 
 def drawHourHand(r,h):
     tu.penup()
@@ -79,7 +80,6 @@ def drawHourHand(r,h):
     tu.rt(angle)
     tu.pendown()
     tu.fd(r*.33)
-
 def drawMinuteHand(r,m):
     tu.penup()
     tu.goto(0, 0)
@@ -100,7 +100,12 @@ def drawSecondHand(r,s):
     tu.pendown()
     tu.fd(r * .9)
 
-
+def drawDate():
+    tu.penup()
+    tu.goto(0, 0)
+    tu.write(datetime.datetime.now())
+    tu.goto(0, 100)
+    tu.write("CSC 121")
 
 
 secList = list()
