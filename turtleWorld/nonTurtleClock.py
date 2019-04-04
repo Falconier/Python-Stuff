@@ -102,10 +102,10 @@ def drawSecondHand(r,s):
 
 def drawDate():
     tu.penup()
-    tu.goto(0, 0)
-    tu.write(datetime.datetime.now())
-    tu.goto(0, 100)
-    tu.write("CSC 121")
+    tu.goto(25, -9)
+    tu.write(datetime.datetime.now().strftime("%a, %b, %d, %Y"), font=("OCR A Extended", 14, "normal"))
+    tu.goto(-38, 100)
+    tu.write("CSC 121",font=("OCR A Extended", 14, "normal"))
 
 
 secList = list()
