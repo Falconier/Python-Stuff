@@ -2,10 +2,11 @@ from math import pi, sin, cos
 import turtle
 from turtle import Turtle
 
-def drawCircle(t,x1,y1,r,color):
+
+def drawCircle(t, x1, y1, r, color):
     t.fillcolor(color)
     t.penup()
-    t.goto(x1,y1)
+    t.goto(x1, y1)
 
     t.begin_fill
     t.pendown()
@@ -13,7 +14,7 @@ def drawCircle(t,x1,y1,r,color):
     t.end_fill
 
     t.penup()
-    t.goto(x1,y1-(2*r))
+    t.goto(x1, y1 - (2 * r))
     t.pendown()
     count = 0
     while (count < 360):
@@ -25,7 +26,9 @@ def drawCircle(t,x1,y1,r,color):
 def main():
     tu = Turtle()
 
-    drawCircle(tu, 0,0,100,"red")
+    drawCircle(tu, 0, 0, 100, "red")
 
     turtle.done()
+
+
 main()
