@@ -52,12 +52,13 @@ class Deck:
 
 
 class Player(object):
+
     def __init__(self, cards):
         self.cards = cards
 
     def __str__(self):
         result = ", ".join(map(str, self.cards))
-        result += "\n " + str(self.getPoints()) + " points"
+        result += "\n " + str(self.getPoints()) + " points "
         return result
 
     def hit(self, card):
@@ -72,19 +73,18 @@ class Player(object):
                 count += 11
             else:
                 count += card.rank
-                # Deduct 10 if Ace is available and needed as 1
-            for card in self.cards:
-                if count <= 21:
-                    break
-                elif card.rank == 1:
-                    count -= 10
-            return count
+        for card in self.cards:
+            if count <= 21:
+                break
+            elif card.rank == 1:
+                count -= 10
+        return count
 
     def hasBlackjack(self):
         return len(self.cards) == 2 and self.getPoints() == 21
 
-
 class Dealer(Player):
+
     def __init__(self, cards):
         Player.__init__(self, cards)
         self.showOneCard = True
@@ -104,54 +104,56 @@ class Dealer(Player):
 class Blackjack(object):
     def __init__(self):
         self.deck = Deck()
+
         self.deck.shuffle()
-        # Pass the player and the dealer two cards each
-        self.player = Player([self.deck.deal(),
-                              self.deck.deal()])
-        self.dealer = Dealer([self.deck.deal(),
-                              self.deck.deal()])
+
+        self.Player = Player([self.deck.deal(), self.deck.deal()])
+        self.Dealer = Dealer([self.deck.deal(),self.deck.deal()])
 
     def play(self):
-        print("Player:\n", self.player)
-        print("Dealer:\n", self.dealer)
-        # Player hits until user says NO
+        print("\nPlayer:\n", self.Player)
+        print("Dealer:\n", self.Dealer)
+
         while True:
-            choice = input("Do you want a hit? [y/n]: ")
-            if choice in ("Y", "y"):
-                self.player.hit(self.deck.deal())
-                points = self.player.getPoints()
-                print("Player:\n", self.player)
+            choice = input("Would you like to hit enter yes or no: \n")
+            if choice == "Yes" or choice =="yes" or choice =="y" or choice =="Y":
+                self.Player.hit(self.deck.deal())
+                points = self.Player.getPoints()
+                print("Player: \n" , self.Player)
                 if points >= 21:
                     break
             else:
                 break
-            playerPoints = self.player.getPoints()
-            if playerPoints > 21:
-                print("You bust and lose")
-            else:
-                # Dealer's turn to hit
-                self.dealer.hit(self.deck)
-                print("Dealer:\n", self.dealer)
-                dealerPoints = self.dealer.getPoints()
-                # Determine the outcome
-                if dealerPoints > 21:
-                    print("Dealer busts and you win")
-                elif dealerPoints > playerPoints:
-                    print("Dealer wins")
-                elif dealerPoints < playerPoints and playerPoints <= 21:
-                    print("You win")
-                elif dealerPoints == playerPoints:
-                    if self.player.hasBlackjack() and not self.dealer.hasBlackjack():
-                        print("You win")
-                    elif not self.player.hasBlackjack() and self.dealer.hasBlackjack():
-                        print("Dealer wins")
-                    else:
-                        print("There is a tie")
+
+        playerPoints = self.Player.getPoints()
+        if playerPoints > 21:
+            print("You Busted")
+        else:
+            self.Dealer.hit(self.deck)
+            print("Dealer\n", self.Dealer)
+            dealerPoints = self.Dealer.getPoints()
+
+            if dealerPoints > 21:
+                print("\n Dealer Busted You Win!!! ")
+            elif dealerPoints > playerPoints:
+                print("Dealer Wins :O ")
+            elif dealerPoints < playerPoints and playerPoints <= 21:
+                print("\n You Win :D ")
+            elif dealerPoints == playerPoints:
+                if self.player.hasBlckjack() and not self.dealer.hasBlckjack():
+                    print("\n you win :D ")
+                elif not self.player.hasBlckjack() and self.dealer.hasBlckjack():
+                    print("\n Dealer Wins")
+                else:
+                    print("\n There is a tie")
 
 
 def main():
-    game = Blackjack()
-    game.play()
-
+    again ="yes"
+    while again == "Yes" or again =="yes" or again == "y" or again == "Y":
+        print("-------------BlackJack------------")
+        cardGame = Blackjack()
+        cardGame.play()
+        again = input("would you like to play again enter Yes or no: \n")
 
 main()
