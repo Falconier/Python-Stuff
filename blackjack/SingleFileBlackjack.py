@@ -1,3 +1,9 @@
+##region File Info
+# Jacob Emory Bullin
+# SingleFileBlackjack.py
+# 4/8/19
+##endregion
+
 import random
 
 

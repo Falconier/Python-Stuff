@@ -1,12 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b8d968-a825-469c-8130-89de7bedaa9e" name="Default Changelist" comment="" />
+    <list default="true" id="02b8d968-a825-469c-8130-89de7bedaa9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment14/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment14/movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databaseWorld/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databaseWorld/hr_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CSC121.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSC121.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/SingleFileBlackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/SingleFileBlackjack.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/MovieCollections_Bullin.py">
+                <provider selected="true" editor-type-id="text-editor" />
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/databaseWorld/hr_db.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state>
+                    <caret column="14" lean-forward="true" selection-start-column="7" selection-end-column="14" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/AddressBook_Bullin_v2.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-80">
+                    <caret line="22" column="24" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="24" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="CSC121" />
@@ -14,10 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/turtleWorld/nonTurtleClock.py">
+        <entry file="file://$PROJECT_DIR$/Assignment14/movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,6 +85,8 @@
       <find>.getAverage</find>
       <find>self.__height</find>
       <find>turtle</find>
+      <find>tki</find>
+      <find>Tkinter</find>
     </findStrings>
     <replaceStrings>
       <replace>ord(msg[i]) == ord(&quot;</replace>
@@ -53,6 +98,8 @@
       <replace>.getName</replace>
       <replace>int(self.__height)</replace>
       <replace>t</replace>
+      <replace>tk</replace>
+      <replace>tkinter</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -61,9 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CourseInformation_Bullin.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
-        <option value="$PROJECT_DIR$/Survey.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
         <option value="$PROJECT_DIR$/AddressBook_Bullin.py" />
         <option value="$PROJECT_DIR$/AddressBook_Bullin_v2.py" />
@@ -104,7 +148,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_for_Isaac.py" />
-        <option value="$PROJECT_DIR$/blackjack/SingleFileBlackjack.py" />
         <option value="$PROJECT_DIR$/turtleWorld/triangle.py" />
         <option value="$PROJECT_DIR$/turtleWorld/playground.py" />
         <option value="$PROJECT_DIR$/turtleWorld/mouseEventDemo.py" />
@@ -112,13 +155,17 @@
         <option value="$PROJECT_DIR$/turtleWorld/circleMaker.py" />
         <option value="$PROJECT_DIR$/turtleWorld/turtleClock.py" />
         <option value="$PROJECT_DIR$/turtleWorld/nonTurtleClock.py" />
+        <option value="$PROJECT_DIR$/blackjack/SingleFileBlackjack.py" />
+        <option value="$PROJECT_DIR$/databaseWorld/hr_db.py" />
+        <option value="$PROJECT_DIR$/Assignment13.py" />
+        <option value="$PROJECT_DIR$/Assignment14/movie.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="width" value="930" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="86" />
+    <option name="width" value="929" />
+    <option name="height" value="548" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,23 +173,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC121" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC121" type="462c0819:PsiDirectoryNode" />
+              <item name="databaseWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="CSC121" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CSC-121" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC-121" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +230,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nonTurtleClock">
+  <component name="RunManager" selected="Python.Assignment13">
+    <configuration name="Assignment13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CSC121" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment13.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="circleMaker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSC121" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mouseEventDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hr_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSC121" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,11 +281,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/turtleWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/databaseWorld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtleWorld/mouseEventDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/databaseWorld/hr_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,27 +307,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtleWorld/nonTurtleClock.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="timerEventDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CSC121" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/turtleWorld" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtleWorld/timerEventDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Assignment13" />
+        <item itemvalue="Python.hr_db" />
         <item itemvalue="Python.nonTurtleClock" />
         <item itemvalue="Python.turtleClock" />
         <item itemvalue="Python.circleMaker" />
-        <item itemvalue="Python.timerEventDemo" />
-        <item itemvalue="Python.mouseEventDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -315,15 +372,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="69" y="0" width="743" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" visible="true" weight="0.15351813" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49061662" weight="0.43777454" />
       <window_info id="TODO" order="2" sideWeight="0.49965397" weight="0.2275281" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32573727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31379732" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31621623" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5067024" />
@@ -334,7 +391,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" weight="0.41434845" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" weight="0.1540636" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" sideWeight="0.50271004" side_tool="true" weight="0.11516854" />
@@ -355,6 +412,38 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Structure" order="3" sideWeight="0.5093834" weight="0.41434845" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,74 +472,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people/Course.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment9/Student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="111" column="6" lean-forward="true" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#129#1895#0" />
-            <element signature="e#129#155#0" />
-            <element signature="e#1136#1153#0" />
-            <element signature="e#1950#2803#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/itertools.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnhancedTherapist_Bullin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="10" column="16" selection-start-line="7" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#158#171#0" expanded="true" />
-            <element signature="e#246#264#0" />
-            <element signature="e#630#652#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CashRegister/RetailItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CashRegister/CashRegister.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#387#415#0" />
-            <element signature="e#457#570#0" />
-            <element signature="e#1296#1688#0" />
-            <element signature="e#1443#1462#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment11.py" />
     <entry file="file://$PROJECT_DIR$/blackjack/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -619,17 +640,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/blackjack/SingleFileBlackjack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="126" column="21" lean-forward="true" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
-          <folding>
-            <element signature="e#32#558#0" />
-            <element signature="e#578#1139#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/turtleWorld/circleMaker.py" />
     <entry file="file://$PROJECT_DIR$/turtleWorld/playground.py" />
     <entry file="file://$PROJECT_DIR$/turtleWorld/mouseEventDemo.py" />
@@ -650,6 +660,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressBook_v1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackjack/SingleFileBlackjack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment14/create_movie_db.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieCollections_Bullin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databaseWorld/hr_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressBook_Bullin_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment14/movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
